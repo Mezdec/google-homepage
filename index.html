@@ -16,10 +16,8 @@
   </header>
   <head>
     <style>
-      ul {
-         li {
-           display: inline;
-         }
+      
+      nav { 
           list-style-type: none;
           margin: 0;
           padding: 0;
@@ -29,36 +27,72 @@
           border: 1px solid #e7e7e7;
           background-color: #f4f6f6;
          }
+
          h1 {
              width: 500px;
             margin: auto;
             border: 3px solid #73AD21;
             }
 
-  .flex-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            height: 300px
-            align-items: center;
-            }
+    .button {
+               box-sizing: border-box;
+                   }   /* Style the search field */
+                      form.example input[type=text] {
+                       padding: 10px;
+                       font-size: 17px;
+                       border: 1px solid grey;
+                       float: left;
+                       width: 80%;
+                       background: #f1f1f1;
+                        }
 
-        footer {
-          background-color: #F1F1F1;
-          text-align: center;
-          padding: 10px;
-          }
-    
-    </style>
-  </head>
-
-    <form action="/result.html" method="List"
-      <h1>
-       <img=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 
-    
-       <input type="text" name="first-text-field" value="search inquiry">
-
+                       / * Style the submit button */
+                       form.example button {
+                      float: left;
+                       width: 20%;
+                      padding: 10px;
+                       background: #2196F3;
+                      color: white;
+                      font-size: 17px;
+                       border: 1px solid grey;
+                      border-left: none; /* Prevent double borders */
+                      cursor: pointer;
+                             }
+ 
+          form.example button:hover {
+                               background: #0b7dda
+                                 }
+            form.example::after {
+                                content: "";
+                                clear: both;
+                                display: table;
+                                }
+               .flex-container {
+                              display: flex;
+                             flex-direction: column;
+                                justify-content: center;
+                             height: 300px
+                             align-items: center;
+                               }
+ 
+                       footer {
+                               background-color: #F1F1F1;
+                              text-align: center;
+                              padding: 10px;
+                              justify-content:end;
+                                }
+         </style>
+      </head>
+   <h1>
+     <form action="/result.html" method="List"
        <div class="flex-container">
+         <div>1<img=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png</div>
+      
+
+      <input type="text" name="first-text-field" value="already-prefilled">
+       </form>
+
+       
         <div>1</div>
           
          
